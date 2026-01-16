@@ -1,0 +1,9 @@
+{
+  "name": "Tet 2026 Super-App",
+  "description": "The ultimate digital companion for the Year of the Fire Horse 2026. Features virtual altar, Bau Cua game, Li Xi wallet, and more.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
