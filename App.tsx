@@ -15,7 +15,6 @@ import FireworksStudio from './components/FireworksStudio';
 import Settings from './components/Settings';
 import XongDat from './components/XongDat';
 import FortuneTeller from './components/FortuneTeller';
-import TetChatbot from './components/TetChatbot';
 import DapNieu from './components/DapNieu';
 import LuckyWheel from './components/LuckyWheel';
 
@@ -66,7 +65,6 @@ const App: React.FC = () => {
           
           <Route path={RoutePath.XONG_DAT} element={user ? <XongDat /> : <Navigate to={RoutePath.AUTH} />} />
           <Route path={RoutePath.FORTUNE} element={user ? <FortuneTeller /> : <Navigate to={RoutePath.AUTH} />} />
-          <Route path={RoutePath.CHATBOT} element={user ? <TetChatbot /> : <Navigate to={RoutePath.AUTH} />} />
           
           <Route path="*" element={<Navigate to={RoutePath.SPLASH} />} />
         </Routes>

@@ -78,26 +78,6 @@ const Dashboard: React.FC<DashboardProps> = ({ user }) => {
             </div>
         </div>
         
-        {/* AI Chatbot Card */}
-        <div 
-            onClick={() => navigate(RoutePath.CHATBOT)}
-            className="bento-item-large bg-gradient-to-r from-indigo-900/40 to-purple-900/40 backdrop-blur-xl border border-white/10 rounded-[2rem] p-4 flex items-center justify-between cursor-pointer group hover:border-tet-gold/50 transition-all"
-        >
-            <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center relative">
-                    <MessageCircle className="text-white group-hover:scale-110 transition-transform" />
-                    <div className="absolute top-0 right-0 w-3 h-3 bg-green-500 rounded-full border-2 border-black"></div>
-                </div>
-                <div>
-                    <h4 className="font-bold text-lg text-white">Trợ Lý Tết AI</h4>
-                    <p className="text-xs text-white/60">Hỏi lời chúc, món ngon, phong tục...</p>
-                </div>
-            </div>
-            <div className="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center">
-                <ArrowUpRight size={16} />
-            </div>
-        </div>
-
         {/* --- Arcade Section --- */}
         
         {/* Bau Cua */}

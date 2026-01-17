@@ -11,8 +11,7 @@ export enum RoutePath {
   WISHES = '/wishes',
   SETTINGS = '/settings',
   XONG_DAT = '/xong-dat',
-  FORTUNE = '/fortune',
-  CHATBOT = '/chatbot'
+  FORTUNE = '/fortune'
 }
 
 export enum UserRole {
